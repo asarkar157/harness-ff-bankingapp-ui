@@ -7,7 +7,7 @@ var firstStart = true
 var currentContent
 
 const cf = initialize(
-	'eae200d6-fec2-4352-9227-927a67df73ea',
+	'aac2ac37-245d-4a24-a149-7b83efaaf374',
 	// ^^ UPDATE THE FF SDK KEY HERE ^^ //
 	target
 );
@@ -200,6 +200,12 @@ function Index_SignUp_Enable(flag){
 	}
 }
 // ----> ADD Your FEATURES HERE <-------- //
+function Home_Logo(logo) {
+	var imgElement = $("body").find("#logo-img");
+	imgElement.attr("height","70");
+	imgElement.attr("src",logo);
+}
+
 // ----> ADD Your FEATURES HERE <-------- //
 // ----> ADD Your FEATURES HERE <-------- //
 // ----> ADD Your FEATURES HERE <-------- //
